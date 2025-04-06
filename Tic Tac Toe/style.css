@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .heading{
     display: flex;
     justify-content: center;
@@ -44,4 +45,52 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+=======
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+.box-content{
+    height: 100px;
+    width: 100px;
+    border: 2px solid #333;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px;
+    font-size: 75px;
+}
+
+.font{
+    font-family: "permanent marker", cursive;
+    text-align: center;
+}
+.box-content:hover {
+    background-color: #f0f0f0;
+}
+
+.box{
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.container{
+    margin: auto;
+    width:300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reset-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+>>>>>>> 792bdf4ea09a8d007287a1b56a5c8ad82b0b0e86
 }
